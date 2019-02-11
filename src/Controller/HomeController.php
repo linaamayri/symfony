@@ -18,5 +18,13 @@ class HomeController
     {
         return new Response('OMG! My first Symfony page');
     }
+
+    /**
+     * @return (article/non article)
+     */
+    public function read()
+    {
+        return new Response('salut on commence ');
+    }
 }
 
